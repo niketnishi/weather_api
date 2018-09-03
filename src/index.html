@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Niket Nishi">
+        <meta name="description" content="Tells you the climatic conditions for your desired city">
+        <meta charset="UTF-8">
+        <title>Know your city weather</title>
+        <link rel="stylesheet" href="../static/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="../static/js/weather_api.js"></script>
+        <script type="text/javascript" src="../static/js/city_list.json"></script>
+    </head>
+    <body>
+        <section>
+            <h1>Type in any city and hit return to get it's climatic conditions.</h1>
+            <div class="container">
+                <input id="city_name" type="text" name="city" placeholder="Your City Name">
+
+                <div id="climate_info"></div>
+            </div>
+        </section>
+    </body>
+</html>
